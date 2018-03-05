@@ -80,6 +80,7 @@ time, mark, audio, video {
 
 .header_elements ul {
     display: flex;
+    display: -webkit-flex;
     flex-direction: row;  
 }
 .header_elements li {
@@ -90,6 +91,7 @@ time, mark, audio, video {
 }
 .header_text {
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
     height: 70%;
     flex-direction: column;
@@ -123,6 +125,7 @@ time, mark, audio, video {
 }
 .content_featured_wrapper {
     display: flex;
+    display: -webkit-flex;
     position: relative;
     height: 100%;
     justify-content: space-between;
@@ -157,6 +160,7 @@ time, mark, audio, video {
     height: 100%;
     width: 400px;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: space-between;
     background-position: center;
@@ -280,6 +284,7 @@ time, mark, audio, video {
     height: 100%;
     width: auto;
     display: flex;
+    display: -webkit-flex;
     flex-wrap: wrap;
     padding-top: 70px;
     justify-content: center;
@@ -296,6 +301,7 @@ time, mark, audio, video {
 .insta_text {
     position: absolute;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
