@@ -40,7 +40,7 @@ time, mark, audio, video {
     background-image: url(img/header_slider.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 .header_elements {
     display: -webkit-flex;
