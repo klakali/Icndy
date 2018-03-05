@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 html, body {
-    min-height: 100%;
+    height: 100%;
 }
 .container {
     height: 100%;
@@ -36,7 +36,7 @@ time, mark, audio, video {
 
 /* 'TOP' rules */
 .header { 
-    height: 800px;
+    height: 100%;
     background-image: url(img/header_slider.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ time, mark, audio, video {
     padding: 70px 70px 30px 70px;
 }
 .bigger_image_wrapper {
-    height: 640px;
+    height: 100%;
     width: 860px;
     position: relative;
     background-image: url(img/wrapper_1.jpg);
