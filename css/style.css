@@ -37,7 +37,7 @@ time, mark, audio, video {
 /* 'TOP' rules */
 .header { 
     height: 800px;
-    background-image: url(img/header_slider.jpg);
+    background-image: url(icndy/img/header_slider.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
