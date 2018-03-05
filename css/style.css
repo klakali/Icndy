@@ -37,7 +37,7 @@ time, mark, audio, video {
 /* 'TOP' rules */
 .header { 
     height: 800px;
-    background-image: url(icndy/img/header_slider.jpg);
+    background-image: url(Icndy/img/header_slider.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,6 @@ time, mark, audio, video {
 
 .header_elements ul {
     display: flex;
-    display: -webkit-flex;
     flex-direction: row;  
 }
 .header_elements li {
@@ -89,7 +88,6 @@ time, mark, audio, video {
 }
 .header_text {
     display: flex;
-    display: -webkit-flex;
     flex-wrap: wrap;
     height: 70%;
     flex-direction: column;
@@ -123,7 +121,6 @@ time, mark, audio, video {
 }
 .content_featured_wrapper {
     display: flex;
-    display: -webkit-flex;
     position: relative;
     height: 100%;
     justify-content: space-between;
@@ -134,7 +131,7 @@ time, mark, audio, video {
     height: 640px;
     width: 860px;
     position: relative;
-    background-image: url(img/wrapper_1.jpg);
+    background-image: url(Icndy/img/wrapper_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -158,13 +155,11 @@ time, mark, audio, video {
     height: 100%;
     width: 400px;
     display: flex;
-    display: -webkit-flex;
     flex-direction: column;
     justify-content: space-between;
     background-position: center;
     flex-wrap: wrap;
 }
-
 .small_image_one p {
     position: absolute;
     color: #fff;
@@ -179,7 +174,7 @@ time, mark, audio, video {
 .small_image_one { 
     position: relative;
     min-height: 295px;
-    background-image: url(img/wrapper_2.jpg);
+    background-image: url(Icndy/img/wrapper_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
@@ -187,7 +182,7 @@ time, mark, audio, video {
 .small_image_two {
     position: relative;
     min-height: 295px;
-    background-image: url(img/wrapper_3.jpg);
+    background-image: url(Icndy/img/wrapper_3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -263,15 +258,15 @@ time, mark, audio, video {
     left: 7%;  
 }
 .image_one {
-    background-image: url(img/wrapper_4.jpg);
+    background-image: url(Icndy/img/wrapper_4.jpg);
     height: 500px;
 }
 .image_two {
-    background-image: url(img/wrapper_5.jpg);
+    background-image: url(Icndy/img/wrapper_5.jpg);
     height: 500px;
 }
 .image_three {
-    background-image: url(img/wrapper_6.jpg);
+    background-image: url(Icndy/img/wrapper_6.jpg);
     height: 500px;
 }
 .instagram {
@@ -282,7 +277,6 @@ time, mark, audio, video {
     height: 100%;
     width: auto;
     display: flex;
-    display: -webkit-flex;
     flex-wrap: wrap;
     padding-top: 70px;
     justify-content: center;
@@ -299,7 +293,6 @@ time, mark, audio, video {
 .insta_text {
     position: absolute;
     display: flex;
-    display: -webkit-flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
