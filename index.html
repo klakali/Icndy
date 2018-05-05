@@ -1,8 +1,7 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>CSS Grid / Flexbox exercise</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css"> 
@@ -12,84 +11,93 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     </head>
     <body>
-        <div class="container">
-            <div class="header">     
-                <ul class="header_elements">
-                    <li class="header_logo"><a href="#"><img src="img/header_logo.jpg"/ alt="Logo" ></a></li>
-                    <li class="menu"><a href=#>Mens</a></li>
-                    <li class="menu"><a href=#>Womens</a></li>
-                    <li class="menu"><a href=#>Brands</a></li>
-                    <li class="menu"><a href=#>Sale</a></li>
-                    <li class="menu"><a href=#>News</a></li>
-                    </ul>
-                
-                <div class="header_text">
-                    <div class="text text_big">STÜSSY STYLE</div>
-                    <div class="text text_small">SHOP NOW</div>
+        <header>
+            <nav class="wrapper_width">
+                <div class="logo">
+                    <a href="#"><img src="img/header_logo.jpg"/ alt="Logo" ></a>
+                </div>
+                <ul class="menu">
+                    <li><a href=#>Mens</a></li>
+                    <li><a href=#>Womens</a></li>
+                    <li><a href=#>Brands</a></li>
+                    <li><a href=#>Sale</a></li>
+                    <li><a href=#>News</a></li>
+                </ul> 
+            </nav>
+                <div class="showcase">
+                    <h1>STÜSSY STYLE</h1>
+                    <h2>SHOP NOW</h2>   
+                    <div class="arrow">
+                        <i class="fas fa-angle-down"></i>
+                    </div>
                 </div> 
-                
-                <div class="arrow">
-                    <i class="fas fa-angle-down"></i>
-                </div>
-            </div>
-            <div class="content_featured">
-                <div class="content_featured_wrapper">
-                    <div class="bigger_image_wrapper">
+        </header>
+        <section class="photos_featured grid">
+                <div class="photo1 photo_general photo_big">
+                    <div class="photo_content_big_wdth">
                         <img src="img/wrapper_1A.png" alt="">
-                        <p>SHOP GOURMET</p>
+                        <p>SHOP GOURMT</p>
                     </div>
-
-                    <div class="small_images_wrapper">
-                        <div class="small_image_one">
-                            <img src="img/wrapper_2A.png" alt="">
-                            <p>SHOP CARHARTT</p>
-                        </div>
-                        <div class="small_image_two">
-                            <img src="img/wrapper_3A.png" alt="">
-                            <p>SHOP<br>ADIDAS</p>
-                        </div>
-                    </div>             
                 </div>
-                
-               <div class="content_featured_wrapper padding_twenty">
-                    <div class="middle_size_image image_one">
-                            <img src="img/wrapper_4A.png" alt="">
-                            <p>TENDEEP<br>SALE</p>
+                <div class="photo2 photo_general photo_big">
+                    <div class="photo_content_big">
+                        <img src="img/wrapper_2A.png" alt="">
+                        <p>SHOP CARHART</p>
                     </div>
-                    <div class="middle_size_image image_two">
+                </div>
+                <div class="photo3 photo_general photo_big">
+                    <div class="photo_content_big">
+                        <img src="img/wrapper_3A.png" alt="">
+                        <p>SHOP ADIDAS</p>
+                    </div>
+                </div>                    
+                <div class="photo4 photo_general photo_small">
+                    <div class="photo_content_small_wdth">
+                        <img src="img/wrapper_4A.png" alt="">
+                        <p>TENDEEP SALE</p>
+                    </div>
+                </div>
+                <div class="photo5 photo_general photo_small">
+                    <div class="photo_content_small">
                         <img src="img/wrapper_5A.png" alt="">
-                        <p>PALACE<br>A/V NOW</p>
+                        <p>PALACE AV</p>
                     </div>
-                    <div class="middle_size_image image_three">
-                        <img src="img/wrapper_6A.png" alt="">
-                        <p> <br>TECH PACK</p>
-                    </div>
-                    <div class="instagram">
-                        <img src="img/insta_1.jpg" alt="instagram photo">
-                        <img src="img/insta_2.jpg" alt="instagram photo">
-                        <img src="img/insta_3.jpg" alt="instagram photo">
-                        <img src="img/insta_4.jpg" alt="instagram photo">
-                        <img src="img/insta_5.jpg" alt="instagram photo">
-                        <img src="img/insta_6.jpg" alt="instagram photo">
-                        <img src="img/insta_7.jpg" alt="instagram photo">
-                        <img src="img/insta_8.jpg" alt="instagram photo"> 
-                        <div class="insta_text">
-                            <div class="text_big">#ICNDY ON INSTAGRAM</div>
-                            <div class="text_small">VIEW HASTAG</div>
-                        </div>
-                   </div>
                 </div>
-                <footer>
-                   <ul class="footer">
-                        <li class="footer_copy">&copy;ICNDY - by klakali</li>
-                        <li class="footer_menu"><a href=#>Privacy</a></li>
-                        <li class="footer_menu"><a href=#>Terms</a></li>
-                        <li class="footer_menu"><a href=#>Shop</a></li>
-                        <li class="footer_menu"><a href=#>About</a></li>
-                        <li class="footer_menu"><a href=#>Contact</a></li>
-                    </ul>           
-                </footer>      
-            </div>
-         </div>
+                <div class="photo6 photo_general photo_small">
+                    <div class="photo_content_small">
+                        <img src="img/wrapper_6A.png" alt="">
+                        <p>TECH PACK</p>
+                    </div>
+                </div>
+            </section>
+            <section class="instagram clr">
+                    <img src="img/insta_1.jpg" alt="instagram photo">
+                    <img src="img/insta_2.jpg" alt="instagram photo">
+                    <img src="img/insta_3.jpg" alt="instagram photo">
+                    <img src="img/insta_4.jpg" alt="instagram photo">
+                    <img src="img/insta_5.jpg" alt="instagram photo">
+                    <img src="img/insta_6.jpg" alt="instagram photo">
+                    <img src="img/insta_7.jpg" alt="instagram photo">
+                    <img src="img/insta_8.jpg" alt="instagram photo"> 
+                    <div class="insta_text">
+                        <h1>#ICNDY ON INSTAGRAM</h1>
+                        <h2><a href="">VIEW HASTAG</a></h2>
+                    </div>
+            </section>
+        <footer class="wrapper_width">
+           <ul class="footer_menu menu">
+                <li><a href=#>&copy;ICNDY - by klakali</a></li>
+                <li><a href=#>Privacy</a></li>
+                <li><a href=#>Terms</a></li>
+                <li><a href=#>Shop</a></li>
+                <li><a href=#>About</a></li>
+                <li><a href=#>Contact</a></li>
+            </ul> 
+                <ul class="social menu">
+                <li><a href=#><img src="img/social_icon_fb.png" alt=""></a></li>
+                <li><a href=#><img src="img/social_icon_insta.png" alt=""></a></li>
+                <li><a href=#><img src="img/social_icon_twitter.png" alt=""></a></li>
+            </ul> 
+        </footer> 
     </body>
 </html>
