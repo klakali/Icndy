@@ -24,6 +24,7 @@ h2 {
     letter-spacing: 8px;
     font-size: 1.5em;
     font-weight: 800;
+    padding-top: 0.5em;
 }
 a {
     text-decoration: none;
@@ -38,6 +39,7 @@ header {
 }
 nav {
     display: flex;
+    height: 20vh;
     padding: 1.2em;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -65,9 +67,8 @@ nav {
     background-color: #2D2E33;
 }
 .showcase {
-    padding-top: 13%;
     display: flex;
-    min-height: 100%;
+    height: 80vh;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -88,6 +89,7 @@ nav {
 }
 .photo_big {
     min-height: 350px;
+    width: auto;
 }
 .photo_content_big{
     position: absolute;
@@ -107,6 +109,7 @@ nav {
 }
 .photo_small {
     height: 560px;
+    width: auto;
 }
 .photo_content_small {
     position: absolute;
@@ -162,12 +165,13 @@ nav {
 }
 .instagram {
     position: relative;
-    margin-top: 2em;
+    overflow: hidden;
     display: flex;
     width: 100%;
     height: auto;
     align-items: center;
     justify-content: center;
+    margin-top: 2em;
 }
 .instagram img {
     max-height: 250px;
@@ -177,6 +181,12 @@ nav {
     font-family: 'Alegreya Sans SC', sans-serif;
     position: absolute;
     text-align: center;
+}
+.insta_text p {
+    color: #fff;
+    letter-spacing: 20px;
+    font-size: 3.6em;
+    font-weight: 300;
 }
 .insta_text h2 a {
     color: #f84545;
@@ -190,11 +200,11 @@ footer {
 }
 .social {
     flex-grow: 1;
+    margin-right: auto;
 }
 .social img {
     width: 15px;
-    height: 12px;
-    
+    height: 12px;  
 }
 .social img:nth-child(1) {
     height: 12px;
@@ -213,7 +223,7 @@ footer {
     }
 }
 @media screen and (max-width: 630px) {
-    .insta_text h1 {
+    .insta_text p {
         font-size: 1.8em;
     }
     .photo_small {
@@ -240,5 +250,8 @@ footer {
         grid-column: 1/3;
         grid-row: 1/3;
         min-height: 46em;
+    }
+    .photo_small {
+        grid-row: 3;
     }
 }
